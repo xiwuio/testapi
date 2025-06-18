@@ -1,0 +1,20 @@
+### 测试支付回调
+POST http://localhost:8000/api/payment/callback
+Content-Type: application/json
+
+{
+  "orderId": "1234567890",
+  "amount": 100,
+  "currency": "USD"
+}
+
+
+### 测试支付回调
+POST http://testapi.xiwu.dev/api/payment/callback
+Content-Type: application/json
+
+{
+  "orderId": "1234567890",
+  "amount": 100,
+  "currency": "USD"
+}
