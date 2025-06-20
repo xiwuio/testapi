@@ -12,6 +12,7 @@ RUN bun install --frozen-lockfile --production
 
 # 复制源代码和配置文件
 COPY src ./src
+COPY .env ./
 COPY tsconfig.json ./
 
 # 暴露应用端口
