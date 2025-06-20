@@ -1,11 +1,15 @@
-To install dependencies:
+# testapi
+
+## Install dependencies
+
 ```sh
 bun install
 ```
 
-To run:
+## To run
+
 ```sh
 bun run dev
 ```
 
-open http://localhost:3000
+open `http://localhost:8000`
