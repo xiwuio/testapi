@@ -4,6 +4,7 @@
     "": {
       "name": "testapi",
       "dependencies": {
+        "dotenv": "^16.5.0",
         "hono": "^4.7.11",
       },
       "devDependencies": {
@@ -17,6 +18,8 @@
     "@types/node": ["@types/node@24.0.3", "https://registry.npmmirror.com/@types/node/-/node-24.0.3.tgz", { "dependencies": { "undici-types": "~7.8.0" } }, "sha512-R4I/kzCYAdRLzfiCabn9hxWfbuHS573x+r0dJMkkzThEa7pbrcDWK+9zu3e7aBOouf+rQAciqPFMnxwr0aWgKg=="],
 
     "bun-types": ["bun-types@1.2.16", "https://registry.npmmirror.com/bun-types/-/bun-types-1.2.16.tgz", { "dependencies": { "@types/node": "*" } }, "sha512-ciXLrHV4PXax9vHvUrkvun9VPVGOVwbbbBF/Ev1cXz12lyEZMoJpIJABOfPcN9gDJRaiKF9MVbSygLg4NXu3/A=="],
+
+    "dotenv": ["dotenv@16.5.0", "https://registry.npmmirror.com/dotenv/-/dotenv-16.5.0.tgz", {}, "sha512-m/C+AwOAr9/W1UOIZUo232ejMNnJAJtYQjUbHoNTBNTJSvqzzDh7vnrei3o3r3m9blf6ZoDkvcw0VmozNRFJxg=="],
 
     "hono": ["hono@4.7.11", "https://registry.npmmirror.com/hono/-/hono-4.7.11.tgz", {}, "sha512-rv0JMwC0KALbbmwJDEnxvQCeJh+xbS3KEWW5PC9cMJ08Ur9xgatI0HmtgYZfOdOSOeYsp5LO2cOhdI8cLEbDEQ=="],
 
